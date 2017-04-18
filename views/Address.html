@@ -16,11 +16,13 @@
 <div class = "small-12 columns"></div>
 
 <div class = "small-2 columns"><br></div>
-<div class = "small-2 columns addressfont">店家名稱</div>
+<div class = "small-1 columns addressfont">商品種類</div>
 <div class = "small-3 columns addressfont">店家地址</div>
 <div class = "small-2 columns addressfont">店家城市</div>
-<div class = "small-1 columns addressfont">食物種類</div>
+<div class = "small-1 columns"><p><br></p></div>
+<div class = "small-1 columns"><p><br></p></div>
 <div class = "small-2 columns"><p><br></p></div>
+
 
 <div class = "small-12 columns"><br></div>
 
@@ -29,11 +31,14 @@
         {{#all dbresponse}}
 <ul class="myUL">
     <li class = "small-2 columns"><br></li>
-    <li class = "small-2 columns">{{storeName}}</li>
+    <li class = "small-1 columns">{{storeName}}</li>
     <li class = "small-3 columns">{{storeAddress}}</li>
     <li class = "small-2 columns">{{storeCity}}</li>
-    <li class = "small-1 columns">{{storeDescription}}</li>
-    <li class = "small-2 columns"><a href = "http://maps.google.com/?q={{storeAddress}}">Google Map</a></li>
+    <li class = "small-1 columns textdec"><a href = "#"></a>詳細信息</li>
+    <li class = "small-2 columns textdec"><a href = "http://maps.google.com/?q={{storeAddress}}">Google Map</a></li>
+    <li class = "small-1 columns "><p><br></p></li>
+   
+
 
 </ul>
     

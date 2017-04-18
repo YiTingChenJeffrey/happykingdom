@@ -18,7 +18,7 @@ function myFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
-    li = document.getElementsByClassName("store-name");
+    li = document.getElementsByClassName("myUL");
     for (i = 0; i < li.length; i++) {
         if (li[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].parentElement.style.display = "";

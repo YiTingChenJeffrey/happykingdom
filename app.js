@@ -55,9 +55,6 @@ var Formsubmit = sequelize.define('formsubmit', {
     , storeCity: {
         type: Sequelize.STRING
     }
-    , storeOwner: {
-        type: Sequelize.STRING
-    }
     , storeDescription: {
         type: Sequelize.STRING
     }
@@ -140,6 +137,44 @@ server.route({
         }
     }
 });
+
+//server.route({
+//
+//    method: 'POST',
+//    path: '/imageUpload',
+//    config: {
+//
+//    payload: {
+//            output: 'file',
+//            parse: true,
+//            //allow: 'multipart/form-data'
+//        }
+//    },
+//    handler: function (request, reply) {
+//
+//        var data = request.payload;
+//        var name = data["fileUpload"].filename;
+//        console.log(data);
+//        if (name != "") {
+//
+//            fs.readFile(data["fileUpload"].path, function (err, data) {
+//                var path = __dirname + "/public/uploads/" + name;
+//                fs.writeFile(path, data, name, function (err) {
+//
+//                    //need to fix bug
+////                    reply.view('imageuploaded', {
+////                        uploaded: str(name)
+////                    })
+//                    console.log("Saved");
+//                });
+//            });
+//
+//        } else {
+//            reply().redirect("/");
+//        };
+//    }
+//});
+
 server.route({
     method: 'POST'
     , path: '/form1'
