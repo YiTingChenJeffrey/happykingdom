@@ -1,0 +1,237 @@
+/*navbar*/
+
+.navbar img {
+    width:50%;
+    margin-top: 10%;
+}
+
+.navbar {
+    text-align:right;
+    
+}
+
+.navlist li {
+    display:inline-block;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.navlist li:hover {
+  border-bottom: 1px solid #FFFF00;
+}
+
+.navlist {
+    background-color: #EB6E80;
+    margin-top: 25px;
+    width:80%;
+    height:10%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+
+.navfontsize {
+    font-size: 105%;
+}
+
+/*Footer*/
+
+.footer2 {
+    background-color: #EB6E80;
+    width:100%;
+    height:7%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    text-align: right;
+    color:white;
+    bottom:0%;
+    position: absolute;
+}
+
+/*Homepage*/
+.poster {
+    width:60%;
+    border: 5px solid grey;
+    margin:auto;
+    
+}
+
+.attention {
+    width:100%;
+    height:20%;
+    background-color: bisque;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.attention1 {
+    width:100%;
+    height:20%;
+    background-color: skyblue;
+/*
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+*/
+}
+
+.attention p {
+    padding-left: 2%;
+}
+
+.Instruction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first, .second, .third {
+    width:30%;
+    height: 30%;
+    vertical-align: top;
+    display: inline-block;
+    *display:inline;
+    zoom:1
+}
+
+
+/*Subpage Title*/
+.donationtitle{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 130%;
+    text-align: center;
+    
+}
+
+.contacttitle{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 130%;   
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+}
+
+/*donation*/
+.donationword p{
+    text-align: right;
+}
+
+/*contact*/
+.contactemail{
+    text-align: center;
+    overflow: auto;
+  }
+
+.contactemail p {
+    margin-left: 30%;
+}
+
+.contactemail p a {
+    text-decoration: underline;
+    color:blue;
+}
+
+.contactinfo{
+    text-align: center;
+    
+}
+
+.contactinfo p {
+    margin-right: 30%;
+}
+
+
+/*form*/
+.formname {
+    text-align: right;
+}
+
+.button1 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.form123 {
+    margin-bottom: 1%;
+}
+
+.formwhole{
+    padding-top: 2%;
+}
+
+/*formresult*/
+.resultform {
+    text-align: center;
+}
+
+.resultform p{
+    margin-top: 2%;
+}
+
+.AADD {
+    text-align: right;
+}
+
+</*Address*/>
+#myInput {
+    height: 1%;
+}
+
+.myUL li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.addresstitle {
+    text-align:center; 
+}
+
+.addressfont {
+    font-size:120%;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.addresstitle li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15%;
+}
+
+/*footer Social Media*/
+.fb {
+    width: 10px;
+    height: 125px;
+    background-color: lightgrey;
+    margin-top: 5%;
+}
+
+.fb1 div{
+    margin-left: 50%;
+    float:none;
+}
+
+.footer1 div a img {
+    width: 60%;
+    margin-left: 1%;
+}
+
+.qwe {
+    margin-top: 5px;
+}
+
+.addressli {
+    
+}
+

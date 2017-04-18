@@ -1,0 +1,25 @@
+<div class = "small-12 columns">
+<div class = "small-2 columns"><br></div>
+<div class = "small-8 columns">
+
+    {{#if dbresponse}}
+        {{#all dbresponse}}
+            {{id}} :
+            {{storeName}} :
+            {{storeAddress}} :
+            {{storeCity}} :
+            {{storeOwner}}:
+            {{storeDescription}}:
+            {{approved}}
+            <a href="/update/{{id}}">update</a> <a href="/delete/{{id}}">delete</a> <a href="/approve/{{id}}">approve</a> 
+            <br>
+        {{/all}}
+    {{/if}}
+
+</div>
+<div class = "small-2 columns"><br></div>
+
+</div>
+
+
+

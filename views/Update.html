@@ -1,0 +1,61 @@
+<div class="small-12 column"><br></div>
+<div class="small-12 column"><br></div>
+
+<div class = "small-2 columns donationtitle"><p><br></p></div>
+<div class = "small-4 columns contacttitle">上傳地址SubmitAddress</div>
+<div class = "small-6 columns donationtitle"><p><br></p></div>
+
+<div class = "small-2 columns"><br></div>
+<div class = "small-3 columns line"></div>
+<div class = "small-7 columns"><br></div>
+
+
+<div class = "small-12 columns formwhole">
+<form action="/update/{{routeId}}" method="POST">
+
+    <div class = "small-6 columns formname"><label>店家名稱StoreName:</label></div>
+    <div class = "small-2 columns "><input type="text" name="storeName" id="storeName"></div>
+    <div class = "small-4 columns"></div>
+    
+    <div class = "small-6 columns formname"><label>店家地址StoreAddress:</label></div>
+    <div class = "small-2 columns "><input type="text" name="storeAddress" id="storeAddress"></div>
+    <div class = "small-4 columns"></div>
+    
+    <div class = "small-6 columns formname"><label>店家城市StoreCity:</label></div>
+    <div class = "small-2 columns form123">
+    <select id='storeCity' name="storeCity">
+      <option value="1">新北市</option>
+      <option value="2">臺北市</option>
+      <option value="3">桃園市</option>
+      <option value="4">臺中市</option>
+      <option value="5">臺南市</option>
+      <option value="6">高雄市</option>
+      <option value="7">基隆市</option>
+      <option value="8">新竹市</option>
+      <option value="9">新竹縣</option>
+      <option value="10">苗栗縣</option>
+      <option value="11">彰化縣</option>
+      <option value="12">南投縣</option>
+      <option value="13">雲林縣</option>
+      <option value="14">嘉義縣</option>
+      <option value="15">屏東縣</option>
+      <option value="16">宜蘭縣</option>
+      <option value="17">臺東縣</option>
+      <option value="18">澎湖縣</option>
+    </select>
+<!--       <input type="text" name="storeCity" id="storeCity">-->
+    </div>
+    <div class = "small-4 columns"></div>
+    
+    <div class = "small-6 columns formname"><label>店長名字StoreOwner:</label></div>
+    <div class = "small-2 columns "><input type="text" name="storeOwner" id="storeOwner"></div>
+    <div class = "small-4 columns"></div>
+    
+    <div class = "small-6 columns formname"><label>店家簡介StoreDescription</label></div>
+    <div class = "small-2 columns"><input type="text" name="storeDescription" id="storeDescription"></div>
+    <div class = "small-4 columns"></div>
+
+    <div class = "small-12 columns button1"><input type="submit" value="上傳Submit"></div>
+
+</form>
+</div>
