@@ -16,9 +16,23 @@ const server = new Hapi.Server({
         }
     }
 });
+
+var sequelize;
+
 server.connection({
-    port: 3000
+    port: (process.env.PORT || 3000)
 });
+
+
+if (process.env.DATABASE_URL) {
+    // the application is executed on Heroku ... use the postgres database
+    sequelize = new Sequelize(process.env.DATABASE_URL, {
+        dialect: 'postgres',
+        protocol: 'postgres',
+        logging: true //false
+    })
+} else {
+
 var sequelize = new Sequelize('db', 'username', 'password', {
     host: 'localhost'
     , dialect: 'sqlite'
@@ -29,6 +43,8 @@ var sequelize = new Sequelize('db', 'username', 'password', {
     }, // SQLite only
     storage: 'db.sqlite'
 });
+}
+    
 var Formsubmit = sequelize.define('formsubmit', {
     storeName: {
         type: Sequelize.STRING
