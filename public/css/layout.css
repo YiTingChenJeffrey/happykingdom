@@ -246,3 +246,15 @@
     min-width: 200%;
 }
 
+/*Detailed Info*/
+
+.DetailedPhoto {
+    max-width: 40%;
+    border-color: lightgrey;
+}
+
+.detailedsize {
+    font-size: 110%;
+    color:#EB6E80;
+}
+

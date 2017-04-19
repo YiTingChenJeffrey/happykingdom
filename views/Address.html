@@ -33,7 +33,7 @@
     <li class = "small-2 columns store-name">{{storeName}}</li>
     <li class = "small-3 columns">{{storeAddress}}</li>
     <li class = "small-2 columns">{{storeCity}}</li>
-    <li class = "small-1 columns textdec"><a href = "#"></a>詳細信息</li>
+    <li class = "small-1 columns textdec"><a href = "/detailedinfo">詳細信息</a></li>
     <li class = "small-2 columns textdec"><a href = "http://maps.google.com/?q={{storeAddress}}">Google Map</a></li>
     <li class = "small-1 columns "><p><br></p></li>
    
@@ -45,3 +45,8 @@
  {{/if}}
 
 </div>
+<script> $(function(){
+        document.getElementsByClassName("footer2")[0].style.position = "relative";
+    });
+     </script>
+

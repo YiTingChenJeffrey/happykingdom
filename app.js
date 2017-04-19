@@ -100,6 +100,7 @@ server.route({
         }
     }
 });
+
 server.route({
     method: 'GET'
     , path: '/form'
@@ -109,6 +110,25 @@ server.route({
         }
     }
 });
+
+server.route({
+    method: 'GET'
+    , path: '/detailedinfo'
+    , handler: function (request, reply) {
+        Formsubmit.findAll({
+            where: {
+                approved: true
+            }
+        }).then(function(d){
+            var parsing = JSON.stringify(d);
+            console.log(parsing);
+            reply.view('DetailedInfo',{
+                dbresponse: parsing
+            });
+        })
+    }
+});
+
 server.route({
     method: 'GET'
     , path: '/address'
