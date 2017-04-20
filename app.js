@@ -113,21 +113,22 @@ server.route({
 
 server.route({
     method: 'GET'
-    , path: '/detailedinfo'
+    , path: '/detailedinfo/{id}'
     , handler: function (request, reply) {
-        Formsubmit.findAll({
+        Formsubmit.findOne({
             where: {
-                approved: true
+                id: encodeURIComponent(request.params.id)
             }
-        }).then(function(d){
+        }).then(function (d) {
             var parsing = JSON.stringify(d);
-            console.log(parsing);
+            //console.log(parsing);
             reply.view('DetailedInfo',{
                 dbresponse: parsing
             });
-        })
+    });
     }
-});
+    
+    });
 
 server.route({
     method: 'GET'

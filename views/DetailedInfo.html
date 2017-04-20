@@ -15,7 +15,7 @@
 <div class = "small-1 columns"><p><br></p></div>
 <div class = "small-3 columns">
  {{#if dbresponse}}
-        {{#all dbresponse}}
+    {{#one dbresponse}}
     <div class = "small-12 columns detailedsize">商品種類:</div>
     <div class = "small-2 columns"><p><br></p></div>
     <div class = "small-10 columns">{{storeName}}</div>
@@ -28,7 +28,7 @@
     <div class = "small-12 columns detailedsize">店家概述：</div>
     <div class = "small-2 columns"><p><br></p></div>
     <div class = "small-10 columns">{{storeDescription}}</div>
-{{/all}}
+    {{/one}}
  {{/if}}
 </div>
 <div class = "small-3 columns"><p><br></p></div>

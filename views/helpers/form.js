@@ -42,6 +42,16 @@ Handlebars.registerHelper('all', function (context, options) {
 
 });
 
+Handlebars.registerHelper('one', function (context, options) {
+    var ret = "";
+    var parsing = JSON.parse(context);
+    console.log(context);
+    ret = ret + options.fn(parsing);
+    return ret;
+
+
+});
+
 
 //Handlebars.registerHelper('list', function (context, options) {
 //        var ret = "<ul>";
