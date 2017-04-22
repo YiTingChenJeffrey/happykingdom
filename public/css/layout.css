@@ -93,7 +93,7 @@
 
 .first, .second, .third {
     width:30%;
-    height: 30%;
+    height: 20%;
     vertical-align: top;
     display: inline-block;
     *display:inline;
