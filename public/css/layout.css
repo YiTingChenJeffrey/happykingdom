@@ -65,10 +65,9 @@
 }
 
 .attention {
-    width:100%;
-    height:40%;
-    background-color: bisque;
-
+    padding-top: 2%;
+    text-align: center;
+    line-height:200%;
 }
 
 .attention1 {
@@ -82,6 +81,34 @@
 */
 }
 
+.style1 {
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    font-size: 150%;
+    padding-top: 5%;
+}
+
+.style2 {
+    padding-bottom: 5%;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+    font-size: 150%;
+    
+}
+
+.style4 {
+    margin-top: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    background-color:#EB6E80;
+}
+
+.style5 {
+    margin-top: 2%;
+    
+}
+
+
 .attention p {
     
 }
@@ -92,7 +119,7 @@
 }
 
 .first, .second, .third {
-    width:30%;
+    width:10%;
     height: 20%;
     vertical-align: top;
     display: inline-block;
