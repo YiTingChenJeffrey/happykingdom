@@ -1,28 +1,22 @@
-<div class="small-12 column"><br></div>
-<div class="small-12 column"><br></div>
-
-<div class = "small-2 columns donationtitle"><p><br></p></div>
-<div class = "small-4 columns contacttitle">上傳地址SubmitAddress</div>
-<div class = "small-6 columns donationtitle"><p><br></p></div>
-
-<div class = "small-2 columns"><br></div>
-<div class = "small-3 columns line"></div>
-<div class = "small-7 columns"><br></div>
-
-
-<div class = "small-12 columns formwhole">
+<div class = "small-1 columns homeone1"><p><br></p></div>
+<div class = "small-3 columns homeone1"><p>在您填寫完需要幫助的地址後，請耐心等待幾天的時間。工作人員在經過審核之後，會把信息儲存在<b>店家地址</b>的列表裡。照片功能目前還在測試中，請大家耐心等待。</p></div>
+<div class = "small-8 columns formwhole">
 <form action="/form1" method="POST">
-
-    <div class = "small-6 columns formname"><label>商品種類MerchandiseType</label></div>
-    <div class = "small-2 columns "><input type="text" name="storeName" id="storeName"></div>
-    <div class = "small-4 columns"></div>
+    <div class = "row">    
+    <div class = "small-4 columns formname"><label>商品種類MerchandiseType</label></div>
+    <div class = "small-4 columns "><input type="text" name="storeName" id="storeName"></div>
+    <div class = "small-4 columns"><p><br></p></div>
+    </div>
     
-    <div class = "small-6 columns formname"><label>店家地址StoreAddress:</label></div>
-    <div class = "small-2 columns "><input type="text" name="storeAddress" id="storeAddress"></div>
-    <div class = "small-4 columns"></div>
+    <div class = "row">
+    <div class = "small-4 columns formname"><label>店家地址StoreAddress:</label></div>
+    <div class = "small-4 columns "><input type="text" name="storeAddress" id="storeAddress"></div>
+    <div class = "small-4 columns"><p><br></p></div>
+    </div>
     
-    <div class = "small-6 columns formname"><label>店家城市StoreCity:</label></div>
-    <div class = "small-2 columns form123">
+    <div class = "row">
+    <div class = "small-4 columns formname"><label>店家城市StoreCity:</label></div>
+    <div class = "small-4 columns form123">
     <select id='storeCity' name="storeCity">
       <option value="新北市">新北市</option>
       <option value="臺北市">臺北市</option>
@@ -45,15 +39,20 @@
     </select>
 <!--       <input type="text" name="storeCity" id="storeCity">-->
     </div>
-    <div class = "small-4 columns"></div>
+    <div class = "small-4 columns"><p><br></p></div>
+    </div>
     
-    <div class = "small-6 columns formname"><label>照片Photo:</label></div>
-    <div class = "small-2 columns "><p>此功能目前正在測試中</p></div>
-    <div class = "small-4 columns"></div>
+    <div class = "row">
+    <div class = "small-4 columns formname"><label>照片Photo:</label></div>
+    <div class = "small-4 columns "><p>此功能目前正在測試中</p></div>
+    <div class = "small-4 columns"><p><br></p></div>
+    </div>
     
-    <div class = "small-6 columns formname"><label>店家概述StoreDescription:</label></div>
-    <div class = "small-2 columns "><textarea rows= "4" type="text" name="storeDescription" id="storeDescription" class ="storeDescriptiontext"></textarea></div>
-    <div class = "small-4 columns"></div>
+    <div class = "row">
+    <div class = "small-4 columns formname"><label>店家概述StoreDescription:</label></div>
+    <div class = "small-4 columns "><textarea rows= "4" type="text" name="storeDescription" id="storeDescription" class ="storeDescriptiontext"></textarea></div>
+    <div class = "small-4 columns"><p><br></p></div>
+    </div>
 
     <div class = "small-12 columns button1"><input type="submit" value="上傳Submit"></div>
 
