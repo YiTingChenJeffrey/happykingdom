@@ -151,6 +151,8 @@
 
 
 /*Subpage Title*/
+
+
 .donationtitle{
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
@@ -174,13 +176,23 @@
 
 /*donation*/
 .donationword {
+    margin-top: 5%;
     text-align: center;
-    
+    border-style:solid;
+    border-width: thick;
+    border-color: #EB6E80;
+    border-radius: 15px;
+    border-width: 10px;
 }
 
 .donationword1 {
     text-align: center;
     color:darkcyan;
+}
+
+.donationword1 img{
+    border-color: black;
+    max-width: 120%;
 }
 
 .yoyoyo {
@@ -192,6 +204,7 @@
 .contactemail{
     text-align: center;
     overflow: auto;
+    margin-top: 10%;
   }
 
 .contactemail p {
@@ -326,4 +339,47 @@
     font-size: 110%;
     color:#EB6E80;
 }
+
+#name {
+    width:30%;
+    border-radius: 15px;
+    display:inline-block;
+    border-color: #EB6E80;
+    border-width: 3px;
+}
+
+#email {
+    width:30%;
+    border-radius: 15px;
+    display:inline-block;
+    border-color: #EB6E80;
+    border-width: 3px;
+}
+
+#message {
+    width:30%;
+    border-radius: 15px;
+    display:inline-block;
+    border-color: #EB6E80;
+    border-width: 3px;
+}
+
+.tag {
+    margin-top: 20%;
+    font-size: 95%;
+}
+
+#name-form {
+    margin-top: 5%;
+}
+
+#button1 {
+    border-radius: 15px;
+    color:#EB6E80;
+    background-color: transparent;
+    border-color: #EB6E80;
+}
+
+
+
 
